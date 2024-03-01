@@ -1,0 +1,94 @@
+header {
+    background-color: rgb(84, 64, 212);
+    width: 100%;
+    color: black;
+    padding: 0; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+header img{
+    width: 300px;
+    height: 100px;
+}
+header nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700; 
+    font-size: 18px;
+    
+}
+header nav ul li {
+    margin-right: 15px; 
+    margin-left: 15px;
+    background-color: rgb(186, 180, 234);
+   /* display: inline; /* Muestra los elementos de la lista en línea 
+    /*margin-right: 0px; /* Añade un espacio entre los elementos de la lista 
+}
+header nav ul li:last-child {
+    margin-right: 10px;  Elimina el margen derecho del último elemento de la lista 
+    margin-left: 10px;*/
+}
+ a{
+    text-decoration: none;
+ }
+
+h1{
+    font-size: 35px;
+    color: rgb(16, 16, 71);
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+}
+h2{
+    font-size: 28px;
+    color: rgb(16, 16, 71);
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+}
+h3{
+    font-size: 23px;
+    color: rgb(16, 16, 71);
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-family: "Kode Mono", monospace;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(148, 180, 241);
+}
+
+.caja{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px;
+
+}
+.caja img {
+    width: 300px;
+    height: 150px;
+}
+
+.caja p {
+    font-size: 15px;
+}
+.presentacion h1 {
+    font-family: "Kode Mono", monospace;
+
+}
